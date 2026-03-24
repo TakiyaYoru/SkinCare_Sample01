@@ -1,0 +1,2 @@
+!function(a){Drupal.behaviors.gnavLinksV1={attached:!1,attach:function(n){if(!this.attached){this.attached=!0;var t=a(".js-gnav-links-v1",n),e=a(".js-gnav-links__mobile-content",t),i=a(".js-gnav-links__content",t),r=a(".js-gnav-links__headline",e);i.attr("aria-hidden","true"),e.attr("aria-expanded","false"),r.length&&r.once().on("click",(function(n){var t=a(this),e=t.parent(),i=t.next(".js-gnav-links__content"),r="false"!==e.attr("aria-expanded");n.preventDefault(),e.attr("aria-expanded",!r),i.attr("aria-hidden",r)}))}}}}(jQuery);
+//# sourceMappingURL=gnav_links_v1.js.map

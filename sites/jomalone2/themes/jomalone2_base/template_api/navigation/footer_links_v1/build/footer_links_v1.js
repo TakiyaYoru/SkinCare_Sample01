@@ -1,0 +1,2 @@
+!function(t){Drupal.behaviors.footerLinksV1={attached:!1,attach:function(a){if(!this.attached){this.attached=!0;var e=t(".js-footer-links-v1",a),n=t(".js-footer-links__content",e),i=t(".js-footer-links__title",n);i.length&&i.once().on("click",(function(){var a=t(this),e=a.parent(),n=a.next(".js-footer-links__section"),i="false"!==e.attr("aria-expanded");e.attr("aria-expanded",!i),n.attr("aria-hidden",i)}))}}}}(jQuery);
+//# sourceMappingURL=footer_links_v1.js.map

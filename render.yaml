@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: skincare-sample01
+    env: static
+    staticPublishPath: .
+    buildCommand: ""
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

@@ -1,0 +1,2 @@
+!function(a){Drupal.behaviors.heroBlockV1={attached:!1,attach:function(o){if(!this.attached){this.attached=!0;var c=a(".js-hero-block",o),t=a(".js-hero-content-over-media",c),r=t.attr("data-bg-color-opacity")||0;if(0!==r){const a=t.css("background-color").replace(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/,`rgba($1, $2, $3, ${r})`);t.css("background-color",a)}}}}}(jQuery);
+//# sourceMappingURL=hero_block_v1.js.map

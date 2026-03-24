@@ -1,0 +1,11 @@
+# Dev scripts
+*.ps1
+*.py
+*.js.map
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep everything else (fonts, media, css, js, etc.)

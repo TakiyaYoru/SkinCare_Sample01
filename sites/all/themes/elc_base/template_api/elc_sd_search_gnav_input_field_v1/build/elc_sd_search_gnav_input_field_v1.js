@@ -1,0 +1,2 @@
+!function(t,n,e){n.behaviors.elcSdSearchGnavInputFieldV1={attached:!1,getIcon:function(){return t(".sd-search-gnav-input-field").find(".svg-search-icon")},shouldNotAttach:function(){const t=e.hasOwnProperty("emit")&&e.hasOwnProperty("on"),n=this.attached,c=this.getIcon().length;return!t||n||!c},attach:function(t){if(this.shouldNotAttach())return;this.attached=!0;this.getIcon().once().on("click",(()=>{e.emit("search.should.render",!0)}))}}}(jQuery,Drupal,window.GlobalServiceBus||{});
+//# sourceMappingURL=elc_sd_search_gnav_input_field_v1.js.map
